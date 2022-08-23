@@ -1,0 +1,153 @@
+body {
+    text-align: center;
+    font-family: "Montserrat";
+    color: #000;
+    margin: 0px;
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+hr {
+    border: none;
+    border-top: dotted;
+    width: 5%;
+    border-width: 5px;
+    color: black;
+    margin-top: 30px;
+    margin-left: 47.5%;
+    position: relative;
+    bottom: 30px;
+}
+
+.big-heading-skill {
+    position: relative;
+    bottom: 30px;
+}
+
+
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 3% 10%;
+    color: #fff;
+}
+
+
+.navbar-brand {
+    font-family: 'Rubik Maze', cursive;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+/* Title */
+
+#title {
+    background-color: #FF87B2;
+    color: white;
+}
+
+.foto-imam {
+    width: 55%;
+    clip-path: circle(140px);
+}
+
+.intro {
+    padding: 7% 15%;
+}
+
+.intro-text {
+    text-align: left;
+    position: relative;
+    top: 30px;
+    right: 60px;
+}
+
+/* Main */
+
+#main {
+    background-color: #fff;
+    padding: 7% 15%;
+    position: relative;
+    bottom: 30px;
+    color: #efb1c6;
+}
+
+#main:hover{
+    color: #FF87B2;
+}
+
+.personal-data {
+    font-weight: 900;
+}
+
+.fa-fan{
+    color: #efb1c6;
+}
+
+.fa-fan:hover{
+    color: #FF87B2;
+}
+
+/* Skills */
+
+#skills {
+    padding: 7% 15%;
+    background-color: #efb1c6;
+    color: white;
+}
+
+.skill-row {
+    margin-top: 7%;
+}
+
+.skill-img {
+    width: 35%;
+    margin-bottom: 5%;
+}
+
+/* Footer */
+
+#footer {
+    background-color: white;
+    position: relative;
+    bottom: 20px;
+    padding-top: 10px;
+}
+
+.fa-brands {
+    color: #212529;
+}
+
+.footer-cr {
+    color: grey;
+}
+
+/* Optimize For Handphone n Tablet */
+
+@media (max-width: 900px){
+  .intro{
+    text-align: center;
+  }
+
+  .intro-text{
+    position: relative;
+    left: 2%;
+    text-align: center;
+  }
+}
